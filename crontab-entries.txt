@@ -1,0 +1,6 @@
+# Cron entries for distributedcracking.net
+#
+*/5 * * * *	php /opt/distributedcracking.net/backend/hash-verification.php  2>/dev/null
+*/15 * * * *	php /opt/distributedcracking.net/backend/jobs-generate-packets.php >/dev/null
+*/10 * * * *	php /opt/distributedcracking.net/backend/check-online-rainbowtables.php  >/dev/null
+*/10 * * * *	php /opt/distributedcracking.net/backend/check-online-rainbowtables-2.php  >/dev/null

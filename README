@@ -1,0 +1,10 @@
+Copyright (C) 2008-2009 Noah Williamsson <noah.williamsson at gmail.com>
+
+
+These files are the backend part of the distributedcracking.net software.
+
+create-mysql-database.sql
+- For initializing the MySQL database
+
+crontab-entries.txt
+- Entries that should go in crontab
